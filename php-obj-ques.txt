@@ -1277,3 +1277,124 @@ Ques 20 : Trace the function that does continue the script execution even if the
 (B) require ()
 (C) both of above
 (D) None of above
+
+
+Ques 1 :
+what will be the output of below code ?
+<?php 
+function zz(& $x) 
+{ 
+$x=$x+5; 
+} 
+?> 
+<? php
+$x=10; 
+zz($x); 
+echo $x;
+?> 
+ (A) 0
+(B) 5
+(C) 10
+(D) 15
+Ques 2 : Which of following commenting is supported by Php.
+ (A) Shell syntax - #
+(B) Multiline Comment /* ------------- */
+(C) Both of above
+(D) None of above
+Ques 3 : Assume that your php file 'index.php' in location c:/apache/htdocs/phptutor/index.php. If you used basename($_SERVER['PHP_SELF']) function in your page, then what is the return value of this function ?
+ (A) phptutor
+(B) phptutor/index.php
+(C) index.php
+(D) /index.php
+Ques 4 : The left association operator % is used in PHP for ?
+ (A) percentage
+(B) bitwise or
+(C) division
+(D) modulus
+Ques 5 : On failure of which statement the script execution stops displaying error/warning message?
+ (A) reinclude ()
+(B) require ()
+(C) both of above
+(D) None of above
+Ques 6 : Which of the following function is used for terminate the script execution in PHP?
+ (A) break()
+(B) quit()
+(C) die()
+Ques 7 : Which of following are compound data type?
+ (A) Array
+(B) Objects
+(C) Both
+(D) None
+Ques 8 :
+Which of these statements is true?
+ (A) PHP interfaces to the MySQL database,and you should transfer any data in Oracle or Sybase to MySQL if you want to use PHP on the data.
+(B) PHP interfaces to a number of relational databases such as MySQL, Oracle and Sybase but the interface differs in each case.
+(C) PHP interfaces to a number of relational databases such as MySQL, Oracle and Sybase. A wrapper layer is provided so that code written for one database can easily be transferred to another if you later switch your database engine.
+(D) There's little code in PHP to help you interface to databases, but there's no reason why you can't write such code if you want to.
+Ques 9 :
+The output of following script would be
+$somerar=15;
+ function ad it () {
+ GLOBAL $somevar;
+ $somerar++ ;
+ echo "somerar is $somerar";
+ }
+ addit ();
+ (A) somerar is 1
+(B) somerar is 15
+(C) somerar is 16
+(D) somerar is $ somerar
+Ques 10 : Trace the function that does continue the script execution even if the file inclusion fails
+ (A) include ()
+(B) require ()
+(C) both of above
+(D) None of above
+Ques 11 : PHP code is embedded directly into XHTML document?
+ (A) False
+(B) True
+Ques 12 : To work with remote files in PHP you need to enable
+ (A) allow_url_fopen
+(B) allow_remote_files
+(C) both of above
+(D) none of above
+Ques 13 : When you need to obtain the ASCII value of a character which of the following function you apply in PHP?
+ (A) asc( );
+(B) ord( );
+(C) chr( );
+(D) val( );
+Ques 14 :
+Which operator is used to concatenate two strings in php?
+ (A) dot operator (.)
+(B) plus operator (+)
+Ques 15 : Casting operator introduced in PHP 6 is ?
+ (A) (array)
+(B) (int64)
+(C) (real) or (double) or (float)
+(D) (object)
+Ques 16 : Variable scope on which a variable does not loose its value when the function exists and use that value if the function is called again is
+ (A) static
+(B) Local
+(C) function parameter
+(D) None of above
+Ques 17 : Trace the false statement ?
+ (A) Any code found within an included file will inherit the variable scope of the location of its caller
+(B) Because the included code will be embedded in a PHP execution block, the PHP execution block, the PHP escape tags ( aren't required on the file to be included
+(C) For the inclusion of remote files the allow-url-pope must be enabled ad URL wrapper must be supported
+(D) Including a file produces the same result as copying the data from the file specified into the location in which the statement appears.
+Ques 18 : What is the output ?
+Assume that today is 2009-5-19:2:45:32 pm <?php $today = date("F j, Y, g:i a"); ?>
+ (A) may 19,09,2:45:32 PM
+(B) May 19, 2009, 2:45 pm
+(C) May 19,2009,14:45:32 pm
+(D) May 19,2009,14:45:32 PM
+Ques 19 : Casting operator introduced in PHP 6 is?
+
+ (A) int64
+(B) array
+(C) object
+(D) real or double or float
+Ques 20 :
+Which of the following function is used for terminate the script execution in PHP?
+ (A) quit()
+(B) break()
+(C) die()
