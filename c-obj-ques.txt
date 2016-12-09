@@ -1,0 +1,1857 @@
+Ques 1 :
+What the below statement will print if a=10 and b = 20?
+printf("%d",a==b);
+ (A) 20
+(B) 10
+(C) 1
+(D) 0
+Ques 2 : What is the output of the following program?
+
+void main(){
+	printf("%d%d",100,200,300);
+}
+ (A) 100 200
+(B) 200 300
+(C) 300 200
+(D) 100 200 300
+Ques 3 : what is the output of following program?
+
+void main(){
+	int a;
+	a=1;
+	while(a-->=1)
+	while(a-->=0);
+	printf("%d",a);
+}	
+ (A) 3
+(B) -3
+(C) 0
+(D) error
+Ques 4 : What is the output of following program?
+ 
+void main(){
+	printf("%d%d%d",-10^9, -10|9, -10&9);
+}
+ (A) 1 1 0
+(B) 1 0 1
+(C) -1 0 0
+(D) -1 -1 0
+Ques 5 : what is the output of following program?
+
+void main(){
+	int a;
+	a=100;
+	printf("%d%d",++a,a++);
+}
+ (A) 101 101
+(B) 101 102
+(C) 102 100
+(D) 102 101
+Ques 6 : What is the output of following program?
+#include "stdio.h"
+main(){
+	extern int a=5;
+	printf("%d",a);
+	return 0;
+}
+ (A) 5
+(B) 0
+(C) error
+(D) none of these
+Ques 7 :
+What will be the output of  the following program
+void  main( ){
+	int a=10;
+	printf("%d",a);
+	{
+		int a=20;
+		printf("%d",a);
+	}
+	printf("%d",a);
+}  
+ (A) 10 10
+(B) 20 10
+(C) 10 20 10
+(D) 10 10 10
+Ques 8 : What is the output of following program?
+ 
+void main(){
+	int a=2;
+	switch(a)
+	{
+		case 4: printf("A");
+		break;	
+		case 3: printf("B");
+		case default : printf("C");
+		case 1 : printf("D");
+		break;
+		case 5 : printf("E"); 
+	}
+}
+ (A) C
+(B) C D
+(C) E
+(D) error
+Ques 9 : What is the output of following program?
+ 
+void main(){
+	int i;
+	for(i=1;i++<=1;i++)
+	for(i++;i++<=6;i++)
+	i++;
+	printf("%d",i);
+}
+ (A) 11
+(B) 12
+(C) 13
+(D) none of these
+Ques 10 : switch(option)
+{
+	case 'H' : printf("Hello");
+	case 'W' : printf("Welcome");
+	case 'B' : printf("Bye");
+	break;
+}
+what would be the output if option = 'H' ?
+ (A) Hello
+(B) Hello Welcome
+(C) Hello Welcome Bye
+(D) None of the above
+Ques 11 : What is the output of following program?
+ 
+void main(){
+	int i;
+	for(i=1;i++<=1;i++)
+	i++;
+	printf("%d",i);
+}
+ (A) 4
+(B) 5
+(C) 6
+(D) nothing display on screen
+Ques 12 :
+How many times the while loop will get executed?
+     main ( )
+     {
+           int a = 1 ;
+           while ( a <= 100) ;
+            {
+                  printf ( â??%dâ??, a++ ) ;
+              }
+       }
+ (A) 100
+(B) 1
+(C) 0
+(D) Infinite
+Ques 13 : What is the output of following program?
+ 
+void main(){
+	int i=10;
+	printf("%d%d%d",++i, i++, ++i);
+}
+ (A) 11 11 13
+(B) 13 11 11
+(C) 11 12 13
+(D) 13 12 11
+Ques 14 :
+What will be output of the following program?
+#include<stdio.h>
+int main(){
+int x;
+x=10,20,30;
+printf("%d",x);
+return 0;
+}
+ (A) 10
+(B) 30
+(C) 30
+(D) 0
+Ques 15 : What is the output of following program?
+
+void abc(int a, int b){
+	printf("%d%d",++a,++b);
+	}
+void main(){
+	int a=10;
+	abc(++a,a++);
+	abc(a++,++a);
+	printf("%d",a);
+}
+ (A) 13 12 12 13 14
+(B) 13 11 14 14 14
+(C) 13 11 13 14 14
+(D) 13 12 14 14 14
+Ques 16 : What is the output of following program?
+ 
+void main(){
+	printf("%d%d",sizeof(10),sizeof(5,5));
+}
+ (A) 2 2
+(B) 2 4
+(C) 2 6
+(D) 2 8
+Ques 17 :
+What will be the output
+main()
+{
+     char *ptr = "Pskills.org";
+     char a =
+     printf("%c", ++*ptr++);
+}
+ (A) Compilation Error
+(B) Q
+(C) P
+(D) a
+Ques 18 : What is the output of the following code?
+#include "stdio.h"
+extern int a;
+main(){
+	void fun();
+	printf("\n a=%d",a);
+	fun();
+	return 0;
+	}
+	int a=7;
+	void fun(){
+	printf("\n in fun a=%d",a);
+}
+ (A) a=0 in fun a=0
+(B) a=7 in fun a=7
+(C) a=7 in fun a=0
+(D) error
+Ques 19 : What is the output of the following program?
+
+void main(){
+	int a;
+	a=1;
+	a++ * ++a;
+	printf("%d",a);
+}
+ (A) 3
+(B) 4
+(C) 6
+(D) 2
+Ques 20 : What is the output of the following code?
+#include "stdio.h"
+extern int a;
+main(){
+	printf("\n a=%d",a);
+	return 0;
+}
+int a;	
+ (A) a=0
+(B) error
+(C) nothing display on screen
+(D) none of these
+
+Ques 1 : What will be printed as the result of the operation below.
+main() 
+{ 
+    int x=20,y=35; 
+    x=y++ + x++; 
+    y= ++y + ++x; 
+    printf("%d%d",x,y);
+}
+ (A) 5 8 9 4
+(B) 5 7 9 4
+(C) 5 8 9 5
+(D) 5 7 8 4
+Ques 2 : What will be printed as the result of the operation below:
+main() 
+{ 
+	int x=5; 
+	printf("%d,%d,%d",x,x<<2,x>>2);
+}
+ (A) 5,21,1
+(B) 5,20,1
+(C) 5,19,0
+(D) 5,19,1
+Ques 3 : Given the following program fragment
+main ()
+{
+	int i, j, k;
+	i = 3;
+	 j =2*(i++);
+	 k =2*(++i);
+}
+which one of the given option is correct?
+ (A) j = 6, k = 10.
+(B) i = 5, k = 6.
+(C) j = 6, k = 8.
+(D) i = 4, j = 6.
+Ques 4 : How many times the below loop will run
+main()
+{
+	int i;
+	i=0;
+	do
+	{
+		--i;
+		printf("%d",i);
+		i++;
+	}
+	while(i>=0);
+}
+ (A) 1
+(B) Infinite
+(C) 0
+(D) Compilation Error
+Ques 5 : switch(option)
+{
+	case 'H' : printf("Hello");
+	case 'W' : printf("Welcome");
+	case 'B' : printf("Bye");
+	break;
+}
+what would be the output if option = 'H' ?
+ (A) Hello
+(B) Hello Welcome
+(C) Hello Welcome Bye
+(D) None of the above
+Ques 6 : Suppose a,b,c are integer variables with values 5,6,7 respectively.  What is the value of the expression:
+!((b+c)>(a+10))
+ (A) 1
+(B) 6
+(C) 15
+(D) 0
+Ques 7 : Consider the following program,
+ main ()
+{
+         int i, j;
+         for (i=0, j=5; j >0, i < 10; i ++, j--)
+	  printf("pskills.org");
+}
+How many times "pskills.org" will get printed
+ (A) 5
+(B) Compilation Error
+(C) 10
+(D) None of the above
+Ques 8 : What value of c will get printed
+main()
+{
+	int a,b,c;
+	a=10;
+	b=20;
+	c=printf("%d",a)+ ++b;
+	printf("\n%d",c);
+}
+ (A) 23
+(B) 22
+(C) 30
+(D) Compilation Error
+Ques 9 : How many times the below loop will get executed?
+main()
+{
+	int i;
+	for(i=9;i;i=i-2)
+	{
+		printf("\n%d",i);
+	}
+}
+
+ (A) 5
+(B) 6
+(C) Compilation Error
+(D) Infinite
+Ques 10 : What the below statement will print if a=10
+printf("%d %d",a, !a++);
+ (A) 11 0
+(B) 10 10
+(C) 10 0
+(D) 0 10
+Ques 11 : What will be the output
+main()
+{
+	int i;
+	i = 10;
+	if(i == 20 || 30)
+	{
+		printf("True");
+	}
+	else
+	{
+		printf("False");
+	}
+}
+ (A) True
+(B) False
+(C) Syntax Error
+(D) Run time Error
+Ques 12 : What will be the output
+main()
+{
+	if(1,0)
+	{
+		printf("True");
+	}
+	else
+	{
+		printf("False");
+	}
+}
+ (A) True
+(B) False
+(C) Compilation Error
+(D) Run time Error
+Ques 13 : What will be the output
+main()
+{
+	int i, j, *ptr, *ptr1;
+	i = 10;
+	j = 10;
+	ptr = &i;
+	ptr1 = &j;
+	if(ptr == ptr1)
+	{
+		printf("True");
+	}
+	else
+	{
+		printf("False");
+	}
+}
+		
+ (A) True
+(B) False
+(C) Syntax Error
+(D) Run time Error
+Ques 14 : How many times the below loop will get executed?
+main()
+{
+	int i;
+	for(i=20, i=10; i<=20; i++)
+	{
+		printf("\n %d", i);
+	}
+}
+ (A) 1
+(B) Run time Error
+(C) 11
+(D) Compilation Error
+Ques 15 : How many times main()  will get called?
+main()
+{
+	printf("\n Main Called Again");
+	main();
+}
+ (A) 1
+(B) 100
+(C) main can not be called recursively
+(D) Infinite
+Ques 16 : What will be the output of  the following program if the base address of array  is 100.
+main()
+{
+	int gyan[] = { 1,2,3,4,5 };
+	int i,*ptr ;
+	ptr = gyan;
+	for(i = 0; i<=4 ; i++)
+	{
+		printf("\n %d", *ptr++);
+	}
+}
+ (A) 1 2 3 4 5
+(B) 2 3 4 5
+(C) 100 101 102 103
+(D) 101 102 103 104
+Ques 17 : Which of the following program structure/component/statement is not an example for implementation of modularization ?
+ (A) DLL
+(B) Functions
+(C) type casting
+Ques 18 : What will be output of following program?
+#include<stdio.h>
+int main()
+{
+	int a = 320;
+	char *ptr;
+	ptr = (char *)&a;
+	printf("%d",*ptr);
+	return 0;
+}
+ (A) 2
+(B) 320
+(C) 64
+(D) Compilation Error
+Ques 19 : What will be output when you will execute following c  code?
+#include<stdio.h>
+{
+	char arr[11]="The African Queen";
+	printf("%s", arr);
+	return 0;
+}
+Choose all that
+ (A) The African
+(B) The
+(C) Compilation
+(D) None of the aboce
+Ques 20 : What will be output of the following c program?
+#include "stdio.h"
+int main()
+{
+	int _ = 5;
+	int __ = 10;
+	int ___;
+	___ = _ + __;
+	printf("%i", ___);
+	return 0;
+}
+ (A) 5
+(B) 10
+(C) 15
+(D) Compilation Error
+
+Ques 1 : Which one of the given option is correct?
+void main()
+{
+int i;
+i=2;
+pskills:
+printf("%d",i);
+i=i+2;
+if(i<=20)
+goto pskills;
+
+}
+ (A) 3 5 7 9 ....... 21 23
+(B) 2 4 6 8 ....... 20
+(C) 3 5 7 9 ....... 21
+(D) 2 4 6 8 ....... 20 22
+Ques 2 : What will be the output of the following program?
+main()
+{
+    printf(3+"Proskills"+4);
+}
+ (A) Compilation Error
+(B) skills
+(C) kills
+(D) ls
+Ques 3 : What will be the output of the following program?
+main()
+{
+    printf("%c","Pskills"[4]);
+}
+ (A) Compilation Error
+(B) P
+(C) i
+(D) l
+Ques 4 : What value of c will get printed
+   main()
+   {
+         int a, b, c;
+         a = 10;
+         b = 20;
+         c = printf("%d",a) + ++b;
+         printf ("%d",c);
+   } 
+ (A) 23
+(B) 22
+(C) 30
+(D) Compilation Error
+Ques 5 : What will be the output
+ main()
+{
+   int i;
+   i = 10;
+   printf("%d\t",5,6);
+   printf("%d", i , i++);
+}
+ (A) 5 11
+(B) 6 10
+(C) 6 11
+(D) 5 10
+Ques 6 : What the below statement will print if a=10 and b = 20?
+printf("%d",a==b);
+ (A) 20
+(B) 10
+(C) 1
+(D) 0
+Ques 7 : How many times the below loop will get executed?
+  main()
+  {
+           int i,j;
+          i = 10;
+          for (j=i==10 ; j<=10 ; j++)
+          {
+            printf("\n%d",j);
+          }
+     }
+ (A) 1
+(B) 10
+(C) 11
+(D) Compilation Error
+Ques 8 : How many times the while loop will get executed?
+     main ( )
+     {
+           int a = 1 ;
+           while ( a <= 100) ;
+            {
+                  printf ( "%d", a++ ) ;
+              }
+       }
+ (A) 100
+(B) 1
+(C) 0
+(D) Infinite
+Ques 9 : What will be the output
+main()
+{
+     char *ptr = "Pskills.org";
+     char a =
+     printf("%c", ++*ptr++);
+}
+ (A) Compilation Error
+(B) Q
+(C) P
+(D) a
+Ques 10 : What are storage classes in 'C' language? choose multiple-
+a. auto keyword
+b. static keyword
+c. register keyword
+d. extern keyword
+e. automatic
+f. static
+ (A) a,b,c
+(B) a,b,c,d
+(C) e,f
+(D) none of these
+Ques 11 : How many storage class specifiers in "C" language?
+ (A) 3
+(B) 4
+(C) 5
+(D) 6
+Ques 12 : How many variables scopes are there in "C" language?
+ (A) 2
+(B) 3
+(C) 4
+(D) 5
+Ques 13 : What is the output of the following code?
+#include "stdio.h"
+main()
+{
+ int i;
+for(i=0;i<5;i++)
+{
+	static int a=0;
+	int b=0;
+	a++;
+	b++;
+	printf("%d  %d",a,b);
+}
+return 0;
+}
+ (A) 1 1 2 1 3 1 4 1 4 1
+(B) 1 1 2 1 3 1 4 1 5 1
+(C) 1 0 2 0 3 1 4 1 5 1
+(D) 0 1 2 0 3 1 4 1 5 1
+Ques 14 : What is the  output of the following code?
+#include "stdio.h"
+main(){
+	static int s;
+	++s;
+	printf("%d",s);
+	if(s<=3)
+	main();
+	printf("%d",s);
+	return 0;
+}
+ (A) 1 2 3 4 4 4 4 4
+(B) 0 1 2 3 4 4 4 4
+(C) 1 2 3 3 4 4 4 4
+(D) 0 1 3 4 4 4 4 4
+Ques 15 : What is the output of the following code?
+
+#include "stdio.h"
+extern int a;
+main(){
+	printf("\na=%d",a);
+ 	return 0;
+}	
+ (A) a=0
+(B) a=garbage value
+(C) error
+(D) none of these
+Ques 16 : What is the output of the following code?
+#include "stdio.h"
+int a;
+main(){
+	printf("\n a= %d",a);
+	return 0;
+}
+ (A) a=0
+(B) a=garbage value
+(C) error
+(D) none of these
+Ques 17 : What is the output of the following code?
+#include "stdio.h"
+extern int a;
+main(){
+	printf("\n a=%d",a);
+	return 0;
+}
+int a;	
+ (A) a=0
+(B) error
+(C) nothing display on screen
+(D) none of these
+Ques 18 : What is the output of the following code?
+#include "stdio.h"
+extern int a;
+main(){
+	printf("\n a=%d",a);
+	return 0;
+}
+int a=5;
+ (A) a=0
+(B) a=5
+(C) a=garbage value
+(D) error
+Ques 19 : What is the output of the following code?
+#include "stdio.h"
+extern int a=5;
+main(){
+	void fun();
+	printf("\n a=%d",a);
+	fun();
+	return 0;
+	}
+	int a;
+	void fun(){
+	printf("\n in fun a=%d",a);
+}
+ (A) a=0 in fun a=5
+(B) a=5 in fun a=0
+(C) a=5 in fun a=5
+(D) error
+Ques 20 : What is the output of the following code?
+#include "stdio.h"
+extern int a;
+main(){
+	void fun();
+	printf("\n a=%d",a);
+	fun();
+	return 0;
+	}
+	int a=7;
+	void fun(){
+	printf("\n in fun a=%d",a);
+}
+ (A) a=0 in fun a=0
+(B) a=7 in fun a=7
+(C) a=7 in fun a=0
+(D) error
+
+Ques 1 : What is the output of the following code?
+void main()
+{
+int i;
+i=0;
+if(i=15,10,5)
+printf("Programing %d",i);
+else
+printf("Skills %d",i);
+getch ();
+}
+ (A) Skills 15
+(B) Programing 5
+(C) Programing 15
+(D) Skills 5
+Ques 2 : What will be printed as the result of the operation below:
+#define swap(a,b) a=a+b;b=a-b;a=a-b;
+void main()
+{ 
+    int x=5, y=10; 
+    swap (x,y); 
+    printf("%d %d",x,y); 
+    swap2(x,y); 
+ printf("%d %d",x,y); 
+}
+int swap2(int a, int b) 
+{ 
+    int temp; 
+    temp=a; 
+    b=a; 
+    a=temp; 
+    return 0;
+}
+ (A) 5,10
+(B) 10,5
+(C) 0,5
+(D) 10,0
+Ques 3 : What is the output of the following code?
+#include "stdio.h"
+extern int a;
+main(){
+void fun();
+	printf("\n a= %d",a);
+	fun();
+	return 0;
+	}
+	int a;
+	void fun(){
+	printf("\n in fun a=%d",a);
+}
+ (A) a=5 in fun a=0
+(B) a=0 in fun a=5
+(C) a=5 in fun a=5
+(D) a=0 in fun a=0
+Ques 4 : What will be printed as the result of the operation below:
+
+main()
+{ 
+    char s1[]="Cisco" 
+    char s2[]= "systems";
+    printf("%s",s1); 
+}
+ (A) system
+(B) error
+(C) Cisco
+(D) Compilation fail
+Ques 5 : What is the output of the following code?
+void main(){
+	printf("%d%d%d",50,100);
+}
+ (A) 50,100
+(B) 50,100,garbage
+(C) 50,100,0
+(D) 0,50,100
+Ques 6 : What is the output of the following program?
+
+void main(){
+	a=3.5;
+	printf("%d",a);
+}
+ (A) 3.5
+(B) 3
+(C) error
+(D) garbage
+Ques 7 : What will be printed as the result of the operation below:
+
+int x; 
+int modifyvalue() 
+{ 
+    return(x+=10); 
+}
+int changevalue(int x) 
+{ 
+    return(x+=1); 
+}
+void main()
+{ 
+    int x=10; 
+    x++; 
+    changevalue(x); 
+    x++; 
+    modifyvalue(); 
+    printf("First output:%dn",x);
+    x++; 
+    changevalue(x); 
+    printf("Second output:%dn",x); 
+    modifyvalue(); 
+    printf("Third output:%dn",x);
+}
+ (A) 12, 12, 12
+(B) 12, 12, 13
+(C) 12, 13, 13
+(D) 13, 13, 13
+Ques 8 : What is the output of the following program?
+
+void main(){
+	printf("%d%d",100,200,300);
+}
+ (A) 100 200
+(B) 200 300
+(C) 300 200
+(D) 100 200 300
+Ques 9 : What is the output of the following program?
+#include "stdio.h"
+void fun(int _){
+	printf("%d",_);
+}
+	main(){
+	fun(23);
+	return 0;
+}
+ (A) 0
+(B) 23
+(C) garbage
+(D) error
+Ques 10 : What will be printed as the result of the operation below:
+
+main()
+{ 
+    int x=10, y=15; 
+    x = x++; 
+    y = ++y; 
+    printf("%d %d",x,y);
+}
+ (A) 10, 16
+(B) 11, 16
+(C) 10, 16
+(D) 11, 15
+Ques 11 : What is the output of the following program?
+
+void main(){
+printf("2+3=%d",2+3);
+}
+ (A) 2+3=0
+(B) 2+3=2+3
+(C) 2+3=5
+(D) 5=2+3
+Ques 12 : What is the output of the following program?
+
+void fun(auto int _){
+	print("%d",_);
+}
+main(){
+	fun(23);
+	return 0;
+}
+ (A) 0
+(B) garbage
+(C) error
+(D) 23
+Ques 13 : What will be the output of the following program?
+main()
+{
+    printf(3+â??Gyantonicâ??+4);
+}
+ (A) ntonic
+(B) tonic
+(C) ic
+(D) nic
+Ques 14 : What is the output of the following program?
+
+void main(){
+	int a;
+	a=3+5*5+3;
+	printf("%d",a);
+}
+ (A) 43
+(B) 64
+(C) 31
+(D) none of these
+Ques 15 : what is the output of following program?
+
+void main(){
+	printf("%d%d",47%5,47%-5);
+	printf("%d%d%d",-47%5,-47%-5,5%7);
+}
+ (A) 2,-2,-2,-2,5
+(B) 2,2,-2,-2,5
+(C) 2,-2,2,-2,5
+(D) 2,2,-2,-2,0
+Ques 16 : What is the output of the following program?
+
+void main()
+{
+int i;
+i=0;
+if(i=55,0,10,0)
+printf("Test Skills %d",i);
+else
+printf("C Programing %d",i);
+getch ();
+}
+ (A) Test Skills 55
+(B) C Programing 0
+(C) Test Skills 0
+(D) C Programing 55
+Ques 17 : What will be the output of the following program?
+main()
+{
+    printf(â??%câ??,â??Gyantonicâ??[4]);
+}
+ (A) G
+(B) n
+(C) t
+(D) none of these
+Ques 18 : what is the output of following program?
+
+void main(){
+	int a;
+	float f;
+	a=12/5;
+	f=12/5;
+	printf("%d%f",a,f);
+}
+ (A) 2,2.000000
+(B) 2,2.00
+(C) 2,2
+(D) none of these
+Ques 19 : what is the output of following program?
+
+ main(){
+	auto a;
+	register r;
+	static s;
+	extern e;
+	printf("%d",sizeof a);
+	printf("%d",sizeof r);
+	printf("%d",sizeof s);
+	printf("%d",sizeof e);
+	return 0;	
+}
+	
+ (A) 2 4 2 4
+(B) 2 2 4 2
+(C) 2 2 2 2
+(D) 2 4 2 2
+Ques 20 : what is the output of following program?
+
+ main(){
+	int a,b;
+	a=b=100;
+	scanf("%d%d",a,&b);
+	//Entered Values are 40 85
+	printf("%d %d",a,b);
+}
+ (A) 40 85
+(B) 0 85
+(C) 100 85
+(D) 100 100
+
+Ques 1 : What is the output of following program?
+#include "stdio.h"
+main(){
+	extern int a=5;
+	printf("%d",a);
+	return 0;
+}
+ (A) 5
+(B) 0
+(C) error
+(D) none of these
+Ques 2 : what is the output of following program?
+
+void main(){
+	int a=80;
+	if(a++>80)
+	printf("welcome%d",a);
+	else
+	printf("hello%d",a);
+}
+ (A) hello 81
+(B) welcome 81
+(C) hello 80
+(D) welcome 80
+Ques 3 : what is the output of following program?
+
+void main(){
+	printf("One");
+	if(2>1)
+	printf("Two");
+	else
+	printf("Three");
+	printf("Four");
+}
+ (A) One Two Three
+(B) Two Three Four
+(C) One Two Four
+(D) One Three Four
+Ques 4 : what is the output of following program?
+
+void main(){
+	float a;
+	a=6.7;
+	if(a==6.7)
+	printf("A");
+	else
+	printf("B");
+}
+ (A) A
+(B) B
+(C) error
+(D) nothing display on screen
+Ques 5 : what is the output of following program?
+
+void main(){
+	int a;
+	a=1;
+	while(a-->=1)
+	while(a-->=0);
+	printf("%d",a);
+}	
+ (A) 3
+(B) -3
+(C) 0
+(D) error
+Ques 6 : what is the output of following program?
+
+void main(){
+	int a=1;
+	void xyz(int , int);
+	xyz(++a,a++);
+	xyz(a++,++a);
+	printf("%d",a);
+	}
+   void xyz(int x, inty){
+    printf("%d%d",x,y);
+   }
+
+ (A) 3 1 3 4 5
+(B) 3 1 4 4 5
+(C) 3 1 4 4 4
+(D) 3 1 4 5 5
+Ques 7 : what is the output of following program?
+
+void main(){
+	int a;
+	a=10;
+	a*=10+2;
+	printf("%d",a);
+}
+ (A) 102
+(B) 100
+(C) 120
+(D) 22
+Ques 8 : what is the output of following program?
+
+void main(){
+	int a;
+	a=100;
+	printf("%d%d",++a,a++);
+}
+ (A) 101 101
+(B) 101 102
+(C) 102 100
+(D) 102 101
+Ques 9 : How many times the while loop will get executed?
+     main ( )
+     {
+           int a = 1 ;
+           while ( a <= 100) ;
+            {
+                  printf ( â??%dâ??, a++ ) ;
+              }
+       }
+ (A) 100
+(B) 1
+(C) 0
+(D) Infinite
+Ques 10 : What is the output of the following program?
+
+void main(){
+	int a;
+	a=100>90>80;
+	printf("%d",a);
+}
+ (A) 0
+(B) 1
+(C) error
+(D) none of these
+Ques 11 : What is the output of the following program?
+
+void main(){
+	int a;
+	a=10;
+	while(a++<=15)
+	printf("%d",a);
+	printf("%d",a+10);
+}
+ (A) 10 11 12 13 14 15 16
+(B) 11 12 13 14 15 16 27
+(C) 10 11 12 13 14 15 25
+(D) 11 11 12 13 14 15 25
+Ques 12 : What is the output of the following program?
+
+void xyz(int p1, int *p2){
+	++p1;
+	++*p2;
+	printf("%d%d",p1,*p2);
+}
+void main(){
+	int a=10;
+	xyz(a++,++*(&a));
+	xyz(a++,++*(&a));
+	printf("%d",a);
+}
+ (A) 10 11 13 14 14
+(B) 11 12 14 15 15
+(C) 12 13 15 16 16
+(D) 11 12 13 14 14
+Ques 13 : What is the output of the following program?
+
+void main(){
+	int a,b;
+	a=b=10;
+	while(a)
+	{
+	a=b++<=13;
+	printf("%d%d",a,b);
+	}
+	printf("%d%d",a+10,b+10);
+}	
+ (A) 1 11 1 12 1 13 1 14 0 15 a=10 b=25
+(B) 0 11 1 12 1 13 1 14 0 15 a=10 b=25
+(C) 1 11 1 12 1 13 1 14 0 15 a=11 b=25
+(D) 0 11 1 12 1 13 1 14 0 15 a=10 b=25
+Ques 14 : What is the output of the following program?
+
+void main(){
+	int a;
+	a=1;
+	a++ * ++a;
+	printf("%d",a);
+}
+ (A) 3
+(B) 4
+(C) 6
+(D) 2
+Ques 15 : What is the output of the following program?
+
+void main(){
+	int a,b;
+	a=b=1;
+	a=a++ + ++b;
+	b=b++ + ++a;
+	printf("%d%d",a,b);
+}	
+ (A) 4 7
+(B) 5 7
+(C) 4 8
+(D) 5 8
+Ques 16 : What is the output of the following program?
+void xyz(int p1, int *p2){
+		++p1;
+		++*p2;
+		printf("%d%d",p1,*p2);
+	}
+	void main(){
+	int a=10;
+	xyz(a++,&a);
+	xyz(a++,&a);
+	printf("%d",a);
+}
+ (A) 10 11 12 13 13
+(B) 11 12 13 13 14
+(C) 10 11 12 12 13
+(D) 11 12 13 14 14
+Ques 17 : What is the output of the following program?
+
+void main(){
+	int a=1;
+	while(a++<=1)
+	while(a++<=2);
+	printf("%d",a);
+}
+ (A) 2
+(B) 3
+(C) 4
+(D) 5
+Ques 18 : What is the output of the following program?
+
+void main(){
+	int a;
+	a=1;
+	while(a<=1)
+	if(a%2)
+	printf("%d",a++);
+	printf("%d",a+10);
+}
+ (A) 2 11
+(B) 1 11
+(C) 2 12
+(D) 1 12
+Ques 19 : What will be the output of  the following program
+ main( )
+  {  
+      int pskills[] = { 10, 20, 30, 40, 50 };
+      int i, *ptr ;
+      ptr = pskills;
+      for ( i = 0 ; i <4 ; i++ )
+     {
+          fun(ptr++);
+          printf ("\n%", *ptr ) ;
+       }
+  }
+ void fun(int *i)
+  {
+      *i = *i + 1;
+  }
+ (A) 11 21 31 41
+(B) 20 30 40 50
+(C) 21 31 41 51
+(D) 10 20 30 40
+Ques 20 : Can a program be invoked from another program ?
+ (A) True
+(B) False
+
+Ques 1 : What is the output of following program?
+
+void abc(int a, int b){
+	printf("%d%d",++a,++b);
+	}
+void main(){
+	int a=10;
+	abc(++a,a++);
+	abc(a++,++a);
+	printf("%d",a);
+}
+ (A) 13 12 12 13 14
+(B) 13 11 14 14 14
+(C) 13 11 13 14 14
+(D) 13 12 14 14 14
+Ques 2 : What is the output of following program?
+
+void main(){
+	int a=1;
+	while(a++<=1)
+	while(a++<=2);
+	printf("%d",a);
+}
+ (A) 1
+(B) 4
+(C) 5
+(D) 6
+Ques 3 : What is the output of following program?
+
+void main(){
+	int a;
+	a=1;
+	while(a<=1)
+	if(a%2)
+	printf("%d",a++);
+	else
+	printf("%d",++a);
+	printf("%d",a+10);
+}
+ (A) 0 11
+(B) 0 12
+(C) 1 11
+(D) 1 12
+Ques 4 : What will be the output of  the following program
+ main( )
+  {  
+      int gyan[] = { 10, 20, 30, 40, 50 };
+      int i, *ptr ;
+      ptr = gyan;
+      for ( i = 0 ; i <4 ; i++ )
+     {
+          fun(ptr++);
+          printf ( â??\n%dâ??, *ptr ) ;
+       }
+  }
+ void fun(int *i)
+  {
+      *i = *i + 1;
+  }
+ (A) 11 21 31 41
+(B) 20 30 40 50
+(C) 21 31 41 51
+(D) 10 20 30 40
+Ques 5 : What will be the output of  the following program
+void  main( ){
+	int a=10;
+	printf("%d",a);
+	{
+		int a=20;
+		printf("%d",a);
+	}
+	printf("%d",a);
+}  
+ (A) 10 10
+(B) 20 10
+(C) 10 20 10
+(D) 10 10 10
+Ques 6 : What will be output of the following program?
+#include<stdio.h>
+int main(){
+int x;
+x=10,20,30;
+printf("%d",x);
+return 0;
+}
+ (A) 10
+(B) 30
+(C) 30
+(D) 0
+Ques 7 : What will be output of following program?
+
+void convention(int,int,int);
+int main(){
+    int a=5;   
+    convention(a,++a,a++);
+    return 0;
+}
+void  convention(int p,int q,int r){
+    printf("%d %d %d",p,q,r);
+}
+ (A) 5 6 5
+(B) 6 7 5
+(C) 7 7 5
+(D) 6 6 5
+Ques 8 : What is the output of following program?
+ 
+void main(){
+	int a=89;
+	int p;
+	p=&a;
+	*(int*)p=8;
+	printf("%d",a);
+	return 0;
+}
+ (A) 7
+(B) 8
+(C) 89
+(D) error
+Ques 9 : What is the output of following program?
+
+void f1(){
+	int a=0;
+	++a;
+	printf("%d",a);
+	} 
+main(){
+	int a=10;
+	f1();
+	f1();
+	f1();
+	printf("%d",a);
+	return 0;
+}
+ (A) 0 1 1 10
+(B) 10 0 1 10
+(C) 1 2 3 4
+(D) 1 1 1 10
+Ques 10 : What is the output of following program?
+
+void f1(){
+	static int s=5;
+	++s;
+	printf("%d",s);
+} 
+main(){
+	f1();
+	f1();
+	printf("%d",s);
+}
+ (A) 6 6 6
+(B) 6 7 7
+(C) 6 7 6
+(D) error
+Ques 11 : What is the output of following program?
+void f1(){
+	static int s=5;
+	++s;
+	printf("%d",s);
+} 
+main(){
+	f1();
+	f1();
+}	
+ (A) 5 6
+(B) 6 6
+(C) 6 7
+(D) 5 5
+Ques 12 : What is the output of following program?
+ 
+void main(){
+	int a;
+	a=10;
+	do
+	while(a++<10);
+	while(a++<=11);
+	printf("%d",a);
+}
+ (A) 12
+(B) 13
+(C) 14
+(D) nothing display on screen.
+Ques 13 : What is the output of following program?
+ 
+void main(){
+	int a,b;
+	for(a=b=10;a;printf("%d%d%d",a,b))
+	a=b++<=12;
+	printf("%d%d",a+10,b+10);
+}
+ (A) 1 12 1 12 1 13 0 14 10 24
+(B) 1 11 1 11 1 13 0 14 10 24
+(C) 1 11 1 12 1 13 0 14 10 24
+(D) 1 11 1 12 1 14 0 14 10 24
+Ques 14 : What is the output of following program?
+ 
+void main(){
+	int a;
+	a='a'>'A';
+	printf("%d",a);
+}
+ (A) 0
+(B) 1
+(C) garbage
+(D) none of these
+Ques 15 : What is the output of following program?
+ 
+void main(){
+	printf("%d%d",sizeof(10),sizeof(5,5));
+}
+ (A) 2 2
+(B) 2 4
+(C) 2 6
+(D) 2 8
+Ques 16 : What is the output of following program?
+ 
+void main(){
+	int i;
+	for(i=1;i++<=1;i++)
+	i++;
+	printf("%d",i);
+}
+ (A) 4
+(B) 5
+(C) 6
+(D) nothing display on screen
+Ques 17 : What is the output of following program?
+ 
+void main(){
+	int i;
+	for(i=1;i++<=1;i++)
+	for(i++;i++<=6;i++)
+	i++;
+	printf("%d",i);
+}
+ (A) 11
+(B) 12
+(C) 13
+(D) none of these
+Ques 18 : What is the output of following program?
+ 
+void abc(int a){
+	++a;
+}
+void main(){
+	int a=10;
+	abc();
+	abc();
+	printf("%d",a);
+}
+ (A) 10
+(B) 11
+(C) 12
+(D) 13
+Ques 19 : What is the output of following program?
+ 
+void xyz(int b){
+	++b;
+}
+void main(){
+	int b=200;
+	xyz(b);
+	xyz(b);
+	printf("%d",b);
+}
+ (A) 200
+(B) 201
+(C) 202
+(D) 203
+Ques 20 : What is the output of following program?
+ 
+void main(){
+	printf("1");
+	goto XYZ;
+	printf("2");
+	XYZ:
+	printf("3");
+}
+ (A) 1 2
+(B) 2 3
+(C) 1 3
+(D) 3 1
+
+Ques 1 : What is the output of following program?
+ 
+void main(){
+	int a=2;
+	switch(a);
+	{
+	case 1: printf("A");
+	case 2: printf("B");
+	case 3: printf("C");
+	break;
+	case 4: printf("D");
+	default: printf("E");
+	break;
+	}
+}
+ (A) A B C
+(B) A B C E
+(C) A B C D E
+(D) error
+Ques 2 : What is the output of following program?
+ 
+void main(){
+	int a=2;
+	switch(a);
+	{
+		case 1: printf("A");
+		case 2: printf("B");
+		case 3: printf("C");
+		break;
+		case 4: printf("D");
+		default : printf("E");
+		break;
+	}
+}
+ (A) B C
+(B) B D
+(C) B E
+(D) error
+Ques 3 : What is the output of following program?
+ 
+void main(){
+	int a=2;
+	switch(a)
+	{
+		case 1: printf("A");
+		break;
+		case 2: printf("B");
+		continue;
+		case 3: printf("C");
+		break;
+		case 4; printf("D");
+		default: printf("E");
+	}
+}
+ (A) B E
+(B) B C E
+(C) B C D E
+(D) error
+Ques 4 : What is the output of following program?
+ 
+void main(){
+	int a=2;
+	switch(a)
+	{
+		case4: printf("A");
+		break;
+		case3: printf("B");
+		case2: printf("C");
+		case1: printf("D");
+		break;
+		default: printf("E");
+	}
+}
+ (A) C
+(B) D
+(C) C D
+(D) E
+Ques 5 : What is the output of following program?
+ 
+void main(){
+	int a=2;
+	switch(a)
+	{
+		case 4: printf("A");
+		break;	
+		case 3: printf("B");
+		case default : printf("C");
+		case 1 : printf("D");
+		break;
+		case 5 : printf("E"); 
+	}
+}
+ (A) C
+(B) C D
+(C) E
+(D) error
+Ques 6 : What is the output of following program?
+ 
+void f1(){
+	extern int g;
+	static int s=5;
+	int a;
+	++g;
+	a=s++;
+	printf("%d%d%d",a,s,g);
+	if(a<=6)
+	f1();
+	printf("%d%d%d",a,s,g);
+	}
+	void f2(){
+		static int s;
+		int a;
+		a=++s;
+		++g;	
+		printf("%d%d%d",a,s,g);
+		if(a<=2)
+		f2();
+		printf("%d%d%d",a,s,g);
+	}
+main(){
+	f1();	
+	f2();
+}
+ (A) 0 5 garbase
+(B) 1 6 1
+(C) 1 6 2
+(D) error
+Ques 7 : What is the output of following program?
+ 
+void main(){
+	int a,b,c,d;
+	a=b=c=d=1;
+	a=++b>1 || ++c>1 && ++d>1;
+	printf("%d%d%d",a,b,c,d);
+}
+ (A) 1 1 2 1
+(B) 1 2 1 1
+(C) 1 2 2 1
+(D) 1 2 1 2
+Ques 8 : What is the output of following program?
+ 
+void main(){
+	int a;
+	a=1;
+	while(a<=10){
+		printf("%d",a);
+		if(a>3)
+		break;
+		a++;
+	}
+	printf("%d",a+10);
+}
+ (A) 1 2 3 4 13
+(B) 1 2 3 3 14
+(C) 1 2 3 3 13
+(D) 1 2 3 4 14
+Ques 9 : What is the output of following program?
+ 
+void main(){
+	int a;
+	a=1;
+	while(a<=10){
+		printf("%d",a);
+		if(a>3 && a<8)
+		continue;
+		a++;
+	}
+	printf("%d",a+10);
+}
+ (A) 1 2 3 4 5 6 ...................infinite
+(B) 1 2 3 4 5 5 ...................infinite
+(C) 1 2 3 4 4 4 ...................infinite
+(D) 1 2 3 4 4 3 ...................infinite
+Ques 10 : What is the output of following program?
+ 
+void main(){
+	int a=100;
+	printf("%d %u %o %x", a,a,a,a);
+}
+ (A) 100 100 0000144 0x0064
+(B) 100 100.00 0000144 0x0064
+(C) 100 100 0000144 0x0032
+(D) 100 100 0000127 0x0064
+Ques 11 : What is the output of following program?
+ 
+void main(){
+	printf("%d%d%d",10<<1, 10>>1, ~10);
+	printf("%d%d%d",10^20, 10|20, 10&20);
+}
+ (A) 20 5 -11 30 30 1
+(B) 20 5 -9 30 30 0
+(C) 5 20 -11 30 30 0
+(D) 20 5 -11 30 30 0
+Ques 12 : What is the output of following program?
+ 
+void main(){
+	int a=1;
+	a=a<<15;
+	printf("%d",a);
+}
+ (A) 32767
+(B) -32767
+(C) 32768
+(D) -32768
+Ques 13 : What is the output of following program?
+ 
+void main(){
+	int a;
+	a=453<<16;
+	printf("%d",a);
+}
+ (A) 0
+(B) 1
+(C) -1
+(D) none of these
+Ques 14 : What is the output of following program?
+ 
+void main(){
+	int a;
+	a=453>>16;
+	printf("%d",a);
+}
+ (A) 0
+(B) 1
+(C) -1
+(D) none of these
+Ques 15 : What is the output of following program?
+ 
+void abc(int a){
+		++a;
+		printf("%d",a);
+	}
+void main(){
+	int a=10;
+	abc(++a);
+	abc(a++);
+	printf("%d",a);
+}
+ (A) 11 12 12
+(B) 11 12 13
+(C) 12 12 12
+(D) 12 12 13
+Ques 16 : What is the output of following program?
+ 
+void main(){
+	int a;
+	a=~0;
+	printf("%d",a);
+}
+ (A) 0
+(B) 1
+(C) -1
+(D) none of these
+Ques 17 : What is the output of following program?
+ 
+void main(){
+	printf("%d%d%d",-10^9, -10|9, -10&9);
+}
+ (A) 1 1 0
+(B) 1 0 1
+(C) -1 0 0
+(D) -1 -1 0
+Ques 18 : What is the output of following program?
+ 
+void main(){
+	float a;
+	a=8.5;
+	if(a==8.5)
+	printf("1");
+	else
+	printf("2");
+}
+ (A) 1
+(B) 2
+(C) error
+(D) none of these
+Ques 19 : What is the output of following program?
+ 
+void main(){
+	int i;
+	i=1;
+	i=i+2*i++;
+	printf("%d",i);
+}
+ (A) 3
+(B) 4
+(C) 5
+(D) 6
+Ques 20 : What is the output of following program?
+ 
+void main(){
+	int i=10;
+	printf("%d%d%d",++i, i++, ++i);
+}
+ (A) 11 11 13
+(B) 13 11 11
+(C) 11 12 13
+(D) 13 12 11
