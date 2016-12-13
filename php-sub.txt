@@ -16,3 +16,45 @@ What is the output of the following code:
 	echo $a.", ".$b;
 ?>
 Ans - 21, 21
+
+What are the main error types in PHP and how do they differ?
+	Basically there are four types of errors in PHP, which are as follows:
+	
+	Parse Errors (syntax errors) - The parse error occurs if there is a syntax mistake in the script; the output is Parse errors. A parse error stops the execution of the script. There are many reasons for the occurrence of parse errors in PHP. The common reasons for parse errors are as follows:
+		Common reason of syntax errors are:
+			Unclosed quotes
+			Missing or Extra parentheses
+			Unclosed braces
+			Missing semicolon
+	
+	Fatal Errors - Fatal errors are caused when PHP understands what you’ve written, however what you’re asking it to do can’t be done. Fatal errors stop the execution of the script. If you are trying to access the undefined functions, then the output is a fatal error.
+	
+	Warning Errors - Warning errors will not stop execution of the script. The main reason for warning errors are to include a missing file or using the incorrect number of parameters in a function.
+	
+	Notice Errors - Notice that an error is the same as a warning error i.e. in the notice error execution of the script does not stop. Notice that the error occurs when you try to access the undefined variable, then produce a notice error.
+	
+What is the difference between GET and POST?
+	The GET method
+		It sends encoded user information append to the page request.
+		The GET method produces a long string that appears in your server logs, in the browser's Location: box.
+		The GET method is restricted to send upto 1024 characters only.
+		Never use GET method if you have password or other sensitive information to be sent to the server.
+		GET can't be used to send binary data, like images or word documents, to the server.
+		The data sent by GET method can be accessed using QUERY_STRING environment variable.
+		The PHP provides $_GET associative array to access all the sent information using GET method.
+
+	The POST Method
+		The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.
+		The POST method does not have any restriction on data size to be sent.
+		The POST method can be used to send ASCII as well as binary data.
+		The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.
+		The PHP provides $_POST associative array to access all the sent information using POST method.
+
+
+How can you enable error reporting in PHP?
+	For enable error reporting in PHP need to enable error display (display_errors & error_reporting)  in the php.ini. By default these are turned off. If unable to modify php.ini then set in .htaccess file:
+	php_flag  display_errors        on
+	php_value error_reporting       2039
+	You can include the following lines in the file you want to debug:
+	error_reporting(E_ALL);
+	ini_set('display_errors', '1');
