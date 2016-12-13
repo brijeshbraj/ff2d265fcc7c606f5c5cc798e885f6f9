@@ -1,0 +1,176 @@
+A 5 cubic centimeter cube is painted on all its side. If it is sliced into 1 cubic centimeter cubes, how many 1 cubic centimeter cubes will have exactly one of their sides painted?
+	A) 9
+	B) 61
+	C) 98
+	D) 54
+Ans - 54
+Exp - When a 5 cc cube is sliced into 1 cc cubes, we will get 5*5*5 = 125 1 cc cubes.
+
+In each side of the larger cube, the smaller cubes on the edges will have more than one of their sides painted.
+Therefore, the cubes which are not on the edge of the larger cube and that lie on the facing sides of the larger cube will have exactly one side painted.
+
+In each face of the larger cube, there will be 5*5 = 25 cubes. Of these, there will be 16 cubes on the edge and 3*3 = 9 cubes which are not on the edge.
+Therefore, there will be 9 1-cc cubes per face that will have exactly one of their sides painted.
+In total, there will be 9*6 = 54 such cubes. 
+
+The area of a square field is 24200 sq m. How long will a lady take to cross the field diagonally at the rate of 6.6 km/hr?
+
+	3 minutes
+	2 minutes
+	2.4 minutes
+	2 minutes 40 seconds
+
+ANS - 2 minutes
+Exp - Let ‘a’ meters be the length of a side of the square field.
+
+Therefore, its area = a2 square meters. --- (1)
+
+We know that the length of the diagonal ‘d’ of a square whose side is ‘a’ meters =  a –-- (2)
+
+From (1) and (2), we can deduce that the square of the diagonal = d2 = 2a2
+
+Or d =  meters.
+
+The time taken to cross a length of 220 meters while traveling at 6.6 kmph is given by 
+ (converting 1 km = 1000 meters and 1 hour = 60 minutes).
+
+= 2 minutes
+
+The circumference of the front wheel of a cart is 30 ft long and that of the back wheel is 36 ft long. What is the distance travelled by the cart, when the front wheel has done five more revolutions than the rear wheel?
+
+	20 ft
+	25 ft
+	750 ft
+	900 ft
+Ans - 900 ft
+The circumference of the front wheel is 30 ft and that of the rear wheel is 36 feet.
+
+Let the rear wheel make n revolutions. At this time, the front wheel should have made n+5 revolutions.
+
+As both the wheels would have covered the same distance, n*36 = (n+5)*30
+
+36n = 30n + 150
+
+6n = 150
+
+n = 25.
+
+Distance covered = 25*36 = 900 ft.
+
+
+	
+If the sides of a triangle measure 72, 75 and 21, what is the measure of its in radius?
+
+	37.5
+	24
+	9
+	15
+Ans - 9
+The sides of the triangle happen to be a Pythagorean triplet. Hence, the triangle is a right angled triangle. 
+
+For a right angled triangle, 
+
+The measure of in radius = (product of perpendicular sides) / (perimeter of triangle)
+
+= (72 * 21) / (72 + 21 +75) = 1512 / 168 = 9
+
+
+A 5 cm cube is cut into as many 1 cm cubes as possible. What is the ratio of the surface area of the larger cube to that of the sum of the surface areas of the smaller cubes?
+
+	1 : 6
+	1 : 5
+	1 : 25
+	1 : 125
+Ans - 1 : 5
+The volume of the larger cube = 53 = 125 cm3.
+
+The volume of each of the smaller cubes = 13 = 1 cm3. Therefore, one would get 125 smaller cubes.
+
+The surface area of the larger cube = 6a2 = 6(52) = 6 * 25 = 150
+
+The surface area of each of the smaller cubes = 6 (12) = 6.
+
+Therefore, surface area of all of the 125, 1 cm3 cubes = 125 * 6 = 750.
+
+Therefore, the required ratio = 150 : 750 = 1 : 5
+
+If each interior angle of a regular polygon is 150 degrees, then it is a/an ______________
+
+	Octagon
+	Decagon
+	Dodecagon
+	Tetrahedron
+Ans - Dodecagon
+The sum of the exterior angle and interior angle of a regular polygon is 3600.
+
+As the measure of each interior angle is 1500, the measure of each exterior angle will be 300.
+
+The number of sides of a regular polygon is given by the following relationship n = 360/exterior angle
+
+As the value of each exterior angle is 300, the number of sides = 12.
+
+Four horses are tethered at 4 corners of a square field of side 70 metres so that they can just about reach one another. The area left ungrazed by the horses is:
+
+	1050 sq.m
+	3850 sq.m
+	950 sq.m
+	1075 sq.m
+Ans - 1050 sq.m
+The length of the rope in which the horses tied should be equal to half of the side of the square plot so that they just cannot reach one another.
+
+Therefore, the length of the rope is 35m (70/2).
+
+The area covered by each horse should be equal to the area of sector with radius of 70/2 = 35m(length of the rope).
+
+Total area covered by the four horses = 4* area of sector of radius 35 metres = Area of circle of radius 35m.
+
+Area left ungrazed by the horses = Area of square field - Area covered by four horses.
+
+= 702 - (22/7)*35*35 = 4900 - 3850 = 1050 sq.m.
+
+The surface area of the three coterminous faces of a cuboid are 6, 15, 10 sq.cm respectively. Find the volume of the cuboid.
+
+	30 cc
+	20 cc
+	40 cc
+	35 cc
+Ans - 30 cc
+
+If the diagonal and the area of a rectangle are 25 m and 168 m2, what is the length of the rectangle?
+
+	17 m
+	31 m
+	12 m
+	24 m
+Ans - 24 m
+The diagonal d = 25m. and area A = 168 m2.
+Let 'l' be the length and 'b' be the width of the rectangle.
+Therefore, l2 + b2 = d2. and lb = A
+We can therefore write (l + b)2 = d2 + 2A and (l - b)2 = d2 - 2A.
+Substituting and solving we get, l + b = 31 and l - b = 17. Hence l = 24 and b = 7
+
+A 4 cm cube is cut into 1 cm cubes. What is the percentage increase in the surface area after cutting?
+
+	4%
+	300%
+	75%
+	400%
+Ans - 300%
+
+A solid metal cylinder of 10 cm height and 14 cm diameter is melted and re-cast into two cones in the proportion of 3 : 4 (volume), keeping the height 10 cm. What would be the percentage change in the flat surface area before and after?
+
+	9%
+	16%
+	25%
+	50%
+	None of the above
+Ans - 50%
+
+A circular road is constructed outside a square field. The perimeter of the square field is 200 ft. If the width of the road is 7v2 ft. and cost of construction is Rs. 100 per sq. ft. Find the lowest possible cost to construct 50% of the total road.
+
+	Rs.70,400
+	Rs.1,25,400
+	Rs.1,40,800
+	Rs.2,35,400
+	None of the above
+Ans - Rs.1,25,400
