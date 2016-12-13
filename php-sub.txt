@@ -1,0 +1,18 @@
+What’s the difference between the include() and require() functions?
+	Both functions are identical to each other, except that it handles errors differently. If an error occurs, the include() function generates a warning, but the script will continue execution. The require() generates a fatal error, and the script will stop.
+	
+How can we get the IP address of the client?
+	The simplest way to get the client’s IP address is using the $_SERVER['REMOTE_ADDR'] or $_SERVER['REMOTE_HOST'] variables. However, sometimes this does not return the correct IP address of the client, so we can use some other server variables to get the IP address.
+	
+What’s the difference between unset() and unlink()
+	unset() is a function for variable management. It will make a variable undefined. Or we can say that unset() is used to null out the value of a given variable. OR Unset() is used to destroy a variable in PHP. In can be used to remove a single variable, multiple variables, or an element from an array.
+	unlink() is a function for file system handling, unlink() is used to delete files. Suppose you have uploaded a file and wants to delete this file through the coding then unlink() function is used to delete the file.
+	
+What is the output of the following code:
+<?php
+	$a = '1';
+	$b = &$a;
+	$b = "2$b";
+	echo $a.", ".$b;
+?>
+Ans - 21, 21
