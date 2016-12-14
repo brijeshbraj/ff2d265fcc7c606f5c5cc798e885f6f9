@@ -1,13 +1,6 @@
 What’s the difference between the include() and require() functions?
 	Both functions are identical to each other, except that it handles errors differently. If an error occurs, the include() function generates a warning, but the script will continue execution. The require() generates a fatal error, and the script will stop.
 	
-How can we get the IP address of the client?
-	The simplest way to get the client’s IP address is using the $_SERVER['REMOTE_ADDR'] or $_SERVER['REMOTE_HOST'] variables. However, sometimes this does not return the correct IP address of the client, so we can use some other server variables to get the IP address.
-	
-What’s the difference between unset() and unlink()
-	unset() is a function for variable management. It will make a variable undefined. Or we can say that unset() is used to null out the value of a given variable. OR Unset() is used to destroy a variable in PHP. In can be used to remove a single variable, multiple variables, or an element from an array.
-	unlink() is a function for file system handling, unlink() is used to delete files. Suppose you have uploaded a file and wants to delete this file through the coding then unlink() function is used to delete the file.
-	
 What is the output of the following code:
 <?php
 	$a = '1';
@@ -32,29 +25,3 @@ What are the main error types in PHP and how do they differ?
 	Warning Errors - Warning errors will not stop execution of the script. The main reason for warning errors are to include a missing file or using the incorrect number of parameters in a function.
 	
 	Notice Errors - Notice that an error is the same as a warning error i.e. in the notice error execution of the script does not stop. Notice that the error occurs when you try to access the undefined variable, then produce a notice error.
-	
-What is the difference between GET and POST?
-	The GET method
-		It sends encoded user information append to the page request.
-		The GET method produces a long string that appears in your server logs, in the browser's Location: box.
-		The GET method is restricted to send upto 1024 characters only.
-		Never use GET method if you have password or other sensitive information to be sent to the server.
-		GET can't be used to send binary data, like images or word documents, to the server.
-		The data sent by GET method can be accessed using QUERY_STRING environment variable.
-		The PHP provides $_GET associative array to access all the sent information using GET method.
-
-	The POST Method
-		The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.
-		The POST method does not have any restriction on data size to be sent.
-		The POST method can be used to send ASCII as well as binary data.
-		The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.
-		The PHP provides $_POST associative array to access all the sent information using POST method.
-
-
-How can you enable error reporting in PHP?
-	For enable error reporting in PHP need to enable error display (display_errors & error_reporting)  in the php.ini. By default these are turned off. If unable to modify php.ini then set in .htaccess file:
-	php_flag  display_errors        on
-	php_value error_reporting       2039
-	You can include the following lines in the file you want to debug:
-	error_reporting(E_ALL);
-	ini_set('display_errors', '1');
