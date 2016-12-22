@@ -128,3 +128,23 @@ What is Traits in PHP?
 What is Final Keyword in PHP?
 	PHP introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final.
 	If the class itself is being defined final then it cannot be extended. If the function itself is being defined final then it cannot be extended. 
+	
+What is difference between $this & self?
+	$this is used to reference the current object, whereas self is used to access the current class itself. In other words, use $this->member for non-static members, use self::$member for static members.
+What's the difference between :: (double colon) and -> (arrow) in PHP?
+	There are two distinct ways to access methods in PHP. The double colon operator (::) is for static elements. This means an instance of the object has not been created yet. while The arrow operator(->) is for instance elements. 
+
+Why we call parent constructor?
+	Parent constructors are not called implicitly if the child class defines a constructor. In order to run a parent constructor, a call to parent::__construct() within the child constructor is required. If the child does not define a constructor then it may be inherited from the parent class just like a normal class method (if it was not declared as private).
+	
+What is Constructor?
+	A constructor is a special kind of a method. It is automatically called when the object is created. The purpose of the constructor is to initiate the state of the object. The name of the constructor in PHP is __construct() (with double underscores).
+Types of Constructors
+	There are 3 type of constructor in php - 
+	Default - __construct() is not declared, then uses default. By default it is non-Parameterized.
+	Parameterized - __construct() is declared with parameter:
+	Copy - __clone(). it is used to create copy one.
+	
+Define Destructor?
+	Destructor method will be called as soon as there are no other references to a particular object, or in any order during the shutdown sequence.
+	
