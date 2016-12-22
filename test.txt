@@ -47,3 +47,31 @@ Ans - CodeIgniter is installed using following steps:
 		
 What is latest version of CodeIgniter?
 	CodeIgniter v3.1.2 (Current version)
+	
+	
+	
+	
+OOPs
+What is Object Oriented Programming?
+	Object-oriented programming is an approach to programming where objects and classes are used. Object-Oriented PHP helps your code stay flexible by allowing it to be only defined once but used in many places.	The goals of object-oriented programming are Increased understanding, Ease of maintenance. Ease of evolution.
+	
+Basic concept of OOPs?
+	Abstraction.
+	Encapsulation. 
+	Inheritance. 
+	Polymorphism.
+	
+What is MVC?
+	The model view controller pattern is the most used pattern for today’s world web applications. At present there are more than a dozen PHP web frameworks based on MVC pattern.The MVC pattern separates an application in 3 modules: Model, View and Controller:
+	Model - The model is responsible to manage the data; it stores and retrieves entities used by an application, usually from a database, and contains the logic implemented by the application.
+	View - The view (presentation) is responsible to display the data provided by the model in a specific format. It has a similar usage with the template modules present in some popular web applications, like wordpress, joomla, …
+	Controller - The controller handles the model and view layers to work together. The controller receives a request from the client, invokes the model to perform the requested operations and sends the data to the View. The view formats the data to be presented to the user, in a web application as an html output.
+	
+What is Polymorphism?
+	Polymorphism is the process of using an operator or function in different ways for different data input. In practical terms, polymorphism means that if class B inherits from class A, it doesn’t have to inherit everything about class A; it can do some of the things that class A does differently.
+
+	In general, polymorphism is the ability to appear in different forms. Technically, it is the ability to redefine methods for derived classes. Polymorphism is concerned with the application of specific implementations to an interface or a more generic base class.
+	
+What is the Scope Resolution Operator?
+	The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class. When referencing these items from outside the class definition, use the name of the class.
+
