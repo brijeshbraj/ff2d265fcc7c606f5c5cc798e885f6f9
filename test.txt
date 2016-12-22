@@ -75,3 +75,56 @@ What is Polymorphism?
 What is the Scope Resolution Operator?
 	The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class. When referencing these items from outside the class definition, use the name of the class.
 
+What is difference between class and interface?
+	1)Interfaces do not contain business logic .
+	2)You must extend interface to use.
+	3)You can't create object of interface.
+
+How to load classes in PHP?
+	We can load a class with the use of "autoload" class.
+	If we want to change from default function autoload to testautload function.
+	we can do this with "spl_autoload_register"	
+	spl_autoload_register('class_name');
+	
+What happen, If constructor is defined as private OR protected.
+	If constructor declared as private, PHP through the following fatal error when create object. Fatal error: Call to private BaseClass::__construct() from invalid context in. If constructor declared as protected, PHP through the following fatal error when create object. Fatal error: Call to protected BaseClass::__construct() from invalid context in.
+	
+What is Static Keyword in PHP?
+	If we declare a Method or Class Property as static, then we can access that without use of instantiation of the class.
+	Static Method are faster than Normal method.
+	$this is not available within Static Method.
+	Static properties cannot be accessed through the object(i.e arrow operator)
+	Calling non-static methods with Scope Resolution operator, generates an E_STRICT level warning.
+	Static properties may only be initialized using a literal or constant value.
+	Static properties/Normal properties Can't be initialized using expressions value.	
+
+What is Abstraction in PHP?
+	Abstraction are defined using the keyword abstract .
+	PHP 5 introduces abstract classes and methods. Classes defined as abstract may not be instantiated (create object).
+	To extend the Abstract class, extends operator is used.
+	You can inherit only one abstract class at one time extending.
+	Any class that contains one abstract method must also be declare as abstract. Methods defined as abstract simply declare the method's signature, they can't define the implementation.
+	All methods marked as abstract in the parent's class, declaration must be defined by the child.
+	Additionally, these methods must be defined with the same (or a less restricted) visibility (Public,Protected & private).
+	Type hint & number of parameter must be match between parent & child class.
+	
+What is Interface in PHP?
+	Interfaces are defined using the interface keyword.
+	All methods declared in an interface must be public. Classes defined as Interface may not be instantiated(create object).
+	To extend the interface class, implements operator is used.
+	You can inherit number of interface class at the time of extending and number of abstract class separated by comma.
+	All methods in the interface must be implemented within a child class; failure to do so will result in a fatal error.
+	Interfaces can be extended like classes using the extends operator.
+	The class implementing the interface must use the exact same method signatures as are defined in the interface. Not doing so will result in a fatal error.
+	Type hint & number of parameter must be match.
+	
+What is Traits in PHP?
+	Traits are a mechanism for code reuse in single inheritance.
+	A Trait is similar to a class, but only intended to group functionality in a fine-grained and consistent way. 
+	It is not possible to instantiate a Trait but addition to traditional inheritance. It is intended to reduce some limitations of single inheritance to reuse sets of methods freely in several independent classes living in different class hierarchies.
+	Multiple Traits can be inserted into a class by listing them in the use statement, separated by commas(,).
+	If two Traits insert a method with the same name, a fatal error is produced.
+	
+What is Final Keyword in PHP?
+	PHP introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final.
+	If the class itself is being defined final then it cannot be extended. If the function itself is being defined final then it cannot be extended. 
