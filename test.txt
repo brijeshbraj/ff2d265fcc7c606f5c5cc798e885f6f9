@@ -26,29 +26,7 @@ What are different types of Web Services?
 
 
 
-What is CodeIgniter?
-	CodeIgniter is an Application Development Framework using PHP. Its goal is to enable you to develop projects much faster than you could if you were writing code from scratch, by providing a rich set of libraries for commonly needed tasks, as well as a simple interface and logical structure to access these libraries.
 
-Why use CodeIgniter?
-	It is a framework with small footprint.
-	it provide exceptional performance.
-	it provide broad compatibility with standard hosting accounts that run a variety of PHP versions and configurations.
-	It requires nearly zero configuration.
-	It does not require you to use the command line.
-	It does not require to be forced to learn a templating language.
-	It's clear, thorough documentation.
-
-How to install CodeIgniter?
-Ans - CodeIgniter is installed using following steps:
-		Unzip the package.
-		Upload the CodeIgniter folders and files to your server. Normally the index.php file will be at your root.
-		Open the application/config/config.php file with a text editor and set your base URL. If you intend to use encryption or sessions, set your encryption key.
-		If you intend to use a database, open the application/config/database.php file with a text editor and set your database settings.
-		
-What is latest version of CodeIgniter?
-	CodeIgniter v3.1.2 (Current version)
-	
-	
 	
 	
 OOPs
