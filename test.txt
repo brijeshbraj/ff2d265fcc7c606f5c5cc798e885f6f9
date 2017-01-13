@@ -22,3 +22,6 @@ WSDL
 UDDI
 
 What are different types of Web Services?
+
+Add in file
+mysqli_set_charset($conn,'utf8');
