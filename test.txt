@@ -23,5 +23,19 @@ UDDI
 
 What are different types of Web Services?
 
-Add in file
-mysqli_set_charset($conn,'utf8');
+
+Question - There is one scooter which has 2 tyres and one stepney/spare (meaning 3 tyres). Each tyre can run up to max 5 km. How long will the scooter run till?
+
+Option A - 5 Km
+Option B - 7.5 Km
+Option C - 10 Km
+Option D - 15 Km
+
+Description - 
+First run 2.5 km and change the 1st tyre with stepney.
+Now kms remains in 1st tyre: 2.5 km, 2nd tyre: 2.5 km, Stepney : 5 km
+Again run for 2.5 km and this time change 2nd tyre with 1st tyre: 
+Now kms remains 1st tyre: 2.5 km, 2nd tyre :0 km ,stepney : 2.5 km.
+Now run 2.5 km with remaining 1st tyre and stepney .
+
+Total: 2.5+2.5+2.5=7.5
