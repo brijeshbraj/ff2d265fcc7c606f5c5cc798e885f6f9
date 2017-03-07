@@ -25,3 +25,141 @@ What are different types of Web Services?
 
 
 
+What are Traits?
+	A Trait is intended to reduce some limitations of single inheritance by enabling a developer to reuse sets of methods freely in several independent classes living in different class hierarchies.
+
+Can the value of a constant change during the script’s execution?
+
+Can you extend a Final defined class?
+
+What are the __construct() and __destruct() methods in a PHP class?
+
+How we can get the number of elements in an array?
+
+How would you declare a function that receives one parameter name hello?
+
+The value of the variable input is a string 1,2,3,4,5,6,7. How would you get the sum of the integers contained inside input?
+
+
+Suppose you receive a form submitted by a post to subscribe to a newsletter. This form has only one field, an input text field named email. How would you validate whether the field is empty? Print a message "The email cannot be empty" in this case.
+
+What are the 3 scope levels available in PHP and how would you define them?
+
+
+What are getters and setters and why are they important?
+
+What does MVC stand for and what does each component do?
+
+How does one prevent the following Warning ‘Warning: Cannot modify header information – headers already sent’ and why does it occur in the first place?
+
+What are SQL Injections, how do you prevent them and what are the best practices?
+
+Why would you use === instead of ==?
+
+What’s the difference between using mysql_ functions and PDO?
+
+Describe how inheritance works with PHP.
+
+Do you know what the PHP-FIG is? Describe it, describe the PSRs you know.
+
+What classes would you create to build a basic Twitter-style status system with OOP?
+
+What frameworks are you experienced in?
+
+What frameworks do you prefer? Why?
+
+Thoughts / experience with unit testing?
+
+
+Minimum no Of Aircraft Puzzle
+
+On Bagshot Island, there is an airport. The airport is the home base of an unlimited number of identical airplanes. Each airplane has a fuel capacity to allow it to fly exactly 1/2 way around the world, along a great circle. The planes have the ability to refuel in flight without loss of speed or spillage of fuel. Though the fuel is unlimited, the island is the only source of fuel.
+What is the fewest number of aircraft necessary to get one plane all the way around the world assuming that all of the aircraft must return safely to the airport? How did you get to your answer?
+
+Notes:
+
+(1) Ignore extra fuel consumption as a result of acceleration, evaporation of fuel, bleeding-heart-liberal fiscal policies, etc.
+(2) All the planes have to make it back safely, so you can’t give all your fuel away to another plane.
+(3) Assume that refueling is an extremely fast process.
+
+
+Red and Blue Balls in a Bag
+
+You have 20 Blue balls and 10 Red balls in a bag. You put your hand in the bag and take off two at a time. If they’re of the same color, you add a Blue ball to the bag. If they’re of different colors, you add a Red ball to the bag. What will be the color of the last ball left in the bag?
+
+Note: Assume you have a big supply of Blue and Red balls for this purpose. When you take the two balls out, you don’t put them back in, so the number of balls in the bag keeps decreasing.
+
+Once you tackle that, what if there are 20 blue balls and 11 red balls to start with?
+
+
+King and Wine Bottles
+A bad king has a cellar of 1000 bottles of delightful and very expensive wine. A neighboring queen plots to kill the bad king and sends a servant to poison the wine. Fortunately (or say unfortunately) the bad king’s guards catch the servant after he has only poisoned one bottle. Alas, the guards don’t know which bottle but know that the poison is so strong that even if diluted 100,000 times it would still kill the king. Furthermore, it takes one month to have an effect. The bad king decides he will get some of the prisoners in his vast dungeons to drink the wine. Being a clever bad king he knows he needs to murder no more than 10 prisoners – believing he can fob off such a low death rate – and will still be able to drink the rest of the wine (999 bottles) at his anniversary party in 5 weeks time. Explain what is in mind of the king, how will he be able to do so ? (of course he has less then 1000 prisoners in his prisons)
+
+Squares on a chess board?
+How many squares are on a chess board?
+
+Gold Bar Puzzle
+You’ve got someone working for you for seven days and a gold bar to pay him. The gold bar is segmented into seven connected pieces. You must give them a piece of gold at the end of every day. What and where are the fewest number of cuts to the bar of gold that will allow you to pay him 1/7th each day?
+
+Boys and Girls
+In a country where everyone wants a boy, each family continues having babies till they have a boy. After some time, what is the proportion of boys to girls in the country? (Assuming probability of having a boy or a girl is the same)
+
+Measure 4 gallon of water from 3 gallon and 5 gallon water jar
+
+How to measure exactly 4 gallon of water from 3 gallon and 5 gallon jars, Given, you have unlimited water supply from a running tap.
+
+
+How to measure exactly 4 Litre water using jar of 5 Litre & 3 Litre. You have unlimited water supply from a running water.
+
+Solution - 
+Step 1. Fill 3 gallon jar with water. ( 5 litre jar =  0, 3 litre jar = 3 litre)
+Step 2. Pour all its water into 5 litre jar. (5 litre jar = 3 litre, 3 litre jar = 0)
+Step 3. Fill 3 litre jar again. (5 litre jar = 3 litre, 3 litre jar = 3 litre)
+Step 4. Pour its water into 5 litre jar untill it is full. Now you will have exactly 1 litre water remaining in 3 litre jar. (5 litre jar = 5 litre, 3 litre jar = 1 litre)
+
+Step 5. Empty 5 gallon jar, pour 1 gallon water from 3 gallon jar into it. Now 5 gallon jar has exactly 1 gallon of water. (5p – 1, 3p – 0)
+
+Step 6. Fill 3 gallon jar again and pour all its water into 5 gallon jar, thus 5 gallon jar will have exactly 4 gallon of water. (5p – 4, 3p – 0)
+
+
+Web Services-------->
+
+
+What is SOAP?
+What are advantages of SOAP Web Services?
+What are disadvantages of SOAP Web Services?
+What is WSDL?
+What are different components of WSDL?
+What is UDDI?
+What is difference between Top Down and Bottom Up approach in SOAP Web Services?
+What is REST Web Services?
+What are advantages of REST web services?
+What are disadvantages of REST web services?
+What is a Resource in Restful web services?
+What are different HTTP Methods supported in Restful Web Services?
+Compare SOAP and REST web services?
+What are different ways to test web services?
+Can we maintain user session in web services?
+What is difference between SOA and Web Services?
+What is the use of Accept and Content-Type Headers in HTTP Request?
+How would you choose between SOAP and REST web services?
+What is JAX-WS API?
+Name some frameworks in Java to implement SOAP web services?
+Name important annotations used in JAX-WS API?
+What is use of javax.xml.ws.Endpoint class?
+What is the difference between RPC Style and Document Style SOAP web Services?
+How to get WSDL file of a SOAP web service?
+What is sun-jaxws.xml file?
+What is JAX-RS API?
+Name some implementations of JAX-RS API?
+What is wsimport utility?
+Name important annotations used in JAX-RS API?
+What is the use of @XmlRootElement annotation?
+How to set different status code in HTTP response?
+
+
+
+
+
+What is dependency injection?
+
