@@ -191,3 +191,7 @@ Nearest Metro Station: RK Ashram Marg
 Timings: 4:30am to 1:30pm & 2.30pm to 9.00pm. (best to visit during morning and evening aarti)
 Entry: Free
 Photography, Mobiles and cameras : Not allowed in the Temple. 
+
+
+
+https://github.com/mail2asik/angular-app
