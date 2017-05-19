@@ -193,5 +193,47 @@ Entry: Free
 Photography, Mobiles and cameras : Not allowed in the Temple. 
 
 
+Taj Mahal - 4.6
+Amer Fort - 4.6
+Humayun's Tomb - 4.5
+Golden Temple - 4.9
+Qutb Minar - 4.4
+Akshardham - 4.6
+The Red Fort - 4.4
+Agra Fort - 4.4
+Ranthambore National Park - 4.4
+City Palace, Jaipur - 4.3
+Mehrangarh Fort - 4.6
+Brihadeeswarar Temple - 4.7
+Gurudwara Bangla Sahib - 4.7
+India Gate - 4.4
+Hawa Mahal - 4.3
+Gateway of India - 4.5
+Jantar Mantar, Jaipur - 4.3
+Jaisalmer Fort - 4.4
+Ranthambore Fort - 4.3
+Lotus Temple - 4.6
+Mysore Palace - 4.5
+Jaigarh Fort - 4.5
+Golkonda - 4.3
+Kanha Tiger Reserve - 4.5
+Lodi Gardens - 4.4
+Charminar - 4.3
+City Palace, Udaipur - 4.3
+Chhatrapati Shivaji Terminus railway station - 4.5
+Rashtrapati Bhavan - 4.8
+Jal Mahal - 4.2
+Elephanta Caves - 4.3
+Konark Sun Temple - 4.6
+Periyar National Park - 4.2
+Nahargarh Fort - 4.5
+Valley of Flowers National Park - 4.7
+Jim Corbett National Park - 4.4
+Ajanta Caves - 4.4
+Jama Masjid, Delhi - 4.3
+Bandipur National Park - 4.3
+Dudhsagar Falls - 4.5
+Mudumalai National Park - 4.0
+
 
 https://github.com/mail2asik/angular-app
