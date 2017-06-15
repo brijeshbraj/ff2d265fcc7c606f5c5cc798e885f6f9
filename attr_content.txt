@@ -158,3 +158,23 @@ Paharganj
 National Zoological Parks
 Fun N Food Village
 International Trade Fair Exhibition Centre
+
+
+Templates
+---Subscribing Welcome----
+Header-----------
+LOGO
+Footer-----------
+Content----------
+Subject - Thanks for subscribing Coveringindia
+Welcome to Coveringindia.com
+
+Thank you for subscribing to the coveringindia newsletter. We recognize that your time is valuable and we are seriously flattered that you chose to join us.
+The Coveringidia endeavors to send you only the best memorable stories, about top travel destinations, top listed attraction in india.
+
+FYI - Privacy is important to us. We are not sell, rent or give your name or address to anyone. At any point you may select link at the bottom of every email to unsubscribe, or to receive less or more information.
+
+Thanks again for joining! If you have any questions or comments, feel free to contact us.
+
+Sincerely,
+
