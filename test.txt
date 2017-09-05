@@ -1028,3 +1028,14 @@ INSERT INTO `stdcodes` (`id`, `place`, `std_code`, `added_datetime`, `updated_da
 (758, 'Yanam', '0884', '2017-08-16 17:53:03', '0000-00-00 00:00:00'),
 (759, 'Zinzuwada', '079-84', '2017-08-16 17:53:03', '0000-00-00 00:00:00'),
 (760, 'Zira', '01682', '2017-08-16 17:53:03', '0000-00-00 00:00:00');
+
+
+Teachers' Day is a special day for the appreciation of teachers, and may include celebrations to honor them for their special contributions in a particular field area, or the community in general. Morals and values imbibed in individuals by teachers are the ones that we carry for the rest of our lives.
+
+Teacher's Day is marked in honour of Dr Sarvepalli Radhakrishnan, who was born on September 5, 1888. Dr Radhakrishnan was India's first vice president and second president. He was a great scholar, philosopher and Bharat Ratna recipient.
+
+On Teacher's Day, students across the nation honour the teachers and gurus in their lives. Often, special programmes are held in schools and colleges honouring educators and the important - and often, thankless - work they do daily.
+
+
+Rashtrapati Bhavan stands on a 330-acre estate and the building itself covers an area of five acres.
+Vadodara is known for its culture, art and education and is the Cultural Capital of Gujarat.
