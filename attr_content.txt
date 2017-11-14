@@ -344,3 +344,174 @@ Top Most Famous Amusement Parks In India
 	MGM Dizzee World, Chennai
 	Aquatica Amusement Park
 	Appu Ghar Oysters Beach Park, Gurgaon
+	
+	
+	Wildflower Hall, Shimla
+The Himalayan, Manali
+Ananda in the Himalayas, Rishikesh
+Aalia, Haridwar
+The Terraces, Kanatal
+Khyber Himalayan Resort and Spa, Gulmarg
+Kairali Ayurvedic Healing Village Health Resort, Palakkad
+Devaaya, The Ayurveda and Nature Cure Centre, Panaji
+The Leela’s ESPA Spa, Udaipur
+Sawadhee Traditional Thai Spa delhi
+Shin Shiva Ayurvedic Resort, Kovalam
+Somatheeram Ayurveda Resort, Kerala
+Devaaya, The Ayurveda and Nature Cur e Centre, Goa
+Sunrise Health Resort, Jaipur, Rajasthan
+
+
+Chandigarh---
+	
+Chandigarh (Union Territory) is the capital of both neighboring states of Haryana and Punjab. The city is not part of either of the two states and is governed directly by the Union Government, which administers all such territories in the country. It is dream city of India's first Prime Minister, Sh. Jawahar Lal Nehru, was planned by the famous French architect Le Corbusier.
+Chandigarh is bordered by the state of Punjab to the north, west and south, and to the state of Haryana to the east.
+Chandigarh derives its name from the temple of "Chandi Mandir" located in the vicinity of the site selected for the city. The deity 'Chandi', the goddess of power and a fort of 'garh' laying beyond the temple gave the city its name "Chandigarh-The City Beautiful".
+Chandigarh has one of the highest per capita income in the country. The city was reported to be one of the cleanest in India based on a national government study. The union territory also heads the list of Indian states and territories according to Human Development Index. In 2015, a survey by LG Electronics, ranked it as the happiest city in India over the happiness index. The metropolitan of Chandigarh–Mohali–Panchkula collectively forms a Tri-city, with a combined population of over 2 million.
+History---
+
+
+Most Dangerous roads in India?
+Most Expensive hotels in india
+Best Places Near Mumbai for one day trip?
+Best Places to visit in india in month May
+Which places to visit in Mumbai in 2 days trip?
+the best tourist attractions in Lakshadweep?
+
+difference between abstract & interfaces
+what is magic methods
+
+Why we use get & set methods.
+E_STRICT
+
+What is generalized logic behind the capacity of 3 & 5 letre mug & get 4 litre exactily.
+
+Question: How array_walk function works in PHP?
+Purpose: It is used to update the elements/index of original array.
+How: in array_walk, two parameter are required. 
+1st: original array
+2nd: An callback function, with use of we update the array.
+
+
+Mall Road	Shopping	
+Kalka–Shimla Railway		
+Christ Church	Religious	4.5
+The Ridge		
+Rashtrapati Niwas	Museum	4.7
+Indian Institute of Advanced Study	institute	4.6
+Himalayan Nature Park	zoo	4
+Scandal Point	History	
+Kufri Fun World	Amusement park	3.5
+State Museum	Museum, history, and culture	
+Sankat Mochan Temple	Religious	4.5
+Chail Palace	Palace	
+Jakhu Hill		
+Jakhu Temple	Temple and history	4.6
+Gorton Castle	Castle	4.6
+Kamna Devi Temple	religious	4.2
+Shimla Reserve Forest Sanctuary		4.3
+
+
+What is Node.js?
+	Node.js is an open source server framework
+	Node.js is free
+	Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+	Node.js uses JavaScript on the server
+	
+Why Node.js?
+	Node.js uses asynchronous programming!
+	
+	
+What are design patterns?
+	Design pattern will make your code easier to manage & easier for understand for others.
+	Factory Design Pattern - The most commonly used design patterns is the factory pattern. In this pattern, a class simply creates the object you want to use. For example we need to create a automobile project. There are two possible way for building code. First is build code for every type of automobile as rename the functionality & second is create a common class for functionality & use every where the instance of that class. Second type of design method is known as Factory Design Pattern.
+	
+	Singleton Design Pattern - This design pattern is allow one & only one instance for a particular class.
+	
+	Strategy Design Pattern - 
+	
+	Front Controller Design Pattern - 
+	
+	Model-View-Controller Design Pattern - 
+
+	
+Types of services in Angular JS (There are 5 types: Service, factory, Provider, Constant, Value.) Also read the difference between them.
+Difference between $RouteProvider and $StateProvider.
+Difference between ui-router and ng-route.
+Whether to use $broadcast or $emit which one is better.
+Is AngularJs secure? (Its not secure!). What are the hacks that can be done on a single page web application.
+What is Interceptors in angularJS
+What is $q. What is a deferred promise.
+Types of Directive.What is link function in directive for.
+Difference between compile , link, pre-link, post- link
+Difference between ng-option and ng-repeat.
+How to bind data between view and Controller. (via $scope). This is the most basic question.
+what is $rootscope
+Difference between $scope and scope.
+Ways to bootstrap in angularjs
+Life cycle of a page in angular, Life cycle of directive
+Difference between $ and $$
+Difference between $digest and $apply.Which one handles exceptions implicitly.
+what is transclude, restrict, replace in a directive
+Filters ,Dependency Injection
+what is bundling of code
+Difference between config and run
+In directives what is difference between =,&,@
+ng-switch,ng-if,ng-show,ng-hide,ng-app,ng-init,ng-model etc basic directives
+$timeout, $evalAsync
+What's new in Angular 2.0
+
+
+Location : GURGAON
+Bank/MICR : 110234004
+Bank A/c No.: 100048133398 (INDUSIND BANK LTD)
+Cost Center : QBPO
+PAN : BGFPM6056G
+PF No. : HR/GGN/29073/8104
+ESI No. :
+UAN : 100925888123-Brni@4231
+
+What is difference between abstract & Interface?
+Different between method overriding and  method overloading?
+Overloading is defining functions that have similar signatures, yet have different parameters. 
+Overriding is only pertinent to derived classes, where the parent class has defined a method and the derived class wishes to override that method.
+In PHP, you can only overload methods using the magic method __call.
+
+
+
+What are the advantages of MySQL?
+	MySQL is open source software.
+	MySQL is easily portable.
+	Administration is supported using MySQL Query Browser
+	MySQL is lightweight applications.
+
+What are difference between FLOAT and DOUBLE?
+	Float takes 4 bytes whereas DOUBLE takes eight bytes.
+	Float have accuracy up to eight place whereas DOUBLE upto 18 placeS.
+	Floating point numbers are stored in FLOAT whereas Double are stored in DOUBLE.
+
+What is the usage of ENUMs in MySQL?
+	ENUM is a string object used to specify set of predefined values. When we add/update record(s), Enum field will save only single value from predefined values.
+	
+	---------------------Angular js-----------
+What is AngularJS?
+AngularJS is an open-source JavaScript framework on MVC (Model-View-Controller) design pattern. It is a structural framework for dynamic Web apps. It is easy to update and get information from your HTML document. It supports Dependency Injection, two-way data binding & routing features.
+
+Explain Directives in AngularJS?
+AngularJS directives the special attributes, that start with ng- prefix, that tell AngularJS's HTML compiler ($compile) to attach a specified behaviour to that DOM element.
+
+AngularJS has a set of built-in directives like
+	ngBind,
+	ngModel
+	ngClass
+	ngApp
+	ngInit
+	ngRepeat
+	
+What are expressions in AngularJS? 
+Angular Expressions are JavaScript code snippets with limited sub-set. Expressions are included in the HTML elements. 
+Like JavaScript expressions, AngularJS expressions can also have various valid expressions. We can use the operators between numbers and strings, literals, objects and arrarys inside the expression {{ }}.
+
+What is currency filter & how to use Currency Filter in AngularJS?
+What is $scope in AngularJS?
+
